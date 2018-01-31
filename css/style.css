@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
+img{
+	max-width: 100%;
+    display: block;
+}
+
+header {
+    padding: 10px 0;
+    box-shadow: 0 1px 7px #0d0d0d52;
+}
+.container{
+    width:1200px;
+    /* background:red; */
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo{  
+    width: 20%;
+    float: left;
+}
+
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 80%;
+    float:  left;
+}
+
+nav ul{
+    text-align:  right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #fabc05;
+}
+
+nav ul li a {
+    color: #101010;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+    font-weight: 600;
+}
+
+.about-section{
+    padding: 100px 0;
+}
+
+.about-img{
+    width:  50%;
+    float:  left;
+    padding:  0 50px;
+}
+
+.about-img img {
+    box-shadow: 0 0 35px 8px #15319a30;
+    margin: 15px;
+}
+
+.about-content{
+    width:  50%;
+    float: left;
+    padding: 0 50px;
+}
+
+.about-content h1{
+    font-size:  45px;
+    line-height: 1;
+    color: #2f2f2f;
+    text-transform: capitalize;
+}
+
+.about-content h1 span{font-weight: 100;}
+
+.tryit{
+   background: #3b5692f5;
+    color:  white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding:  10px 30px;
+    display:  inline-block;
+    font-size:  16px;
+    border-radius:  30px;
+    margin-top: 30px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tryit:hover{    background: #002984f5;}
+
+.build-anythings-section{
+    padding: 100px 0;
+   background: #9c9c9c1f;
+}
+.heading{text-align: center; width: 400px; margin: 0 auto 50px;}
+
+.heading h2{}
+.heading h2 strong{}
+.heading p{}
+
+
+.col-3{width:33.33%; float: left; padding: 0 30px;}
+
+.build-content{margin-bottom: 40px; }
+
+.build-content h3{font-weight: 400px; margin-bottom: 5px; text-transform: capitalize;}
+.build-content p{font-weight: 100px;}
+.build-img{}
+.build-img img{}
+
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
